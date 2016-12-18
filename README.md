@@ -1,15 +1,24 @@
-# pseudo-facebook
-A learning, pet project to learn React.js and PHP.
+# README
 
-### Installation
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Install Node and NPM. Then:
+Things you may want to cover:
 
-```
-$ git clone https://github.com/tuuk79/pseudo-facebook.git
-$ cd pseudo-facebook
-$ git reset HEAD^
-$ npm install
+* Ruby version
 
-### Unit Testing
-npm test
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
