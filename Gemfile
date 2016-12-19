@@ -7,6 +7,9 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
+gem 'react-rails'
+
+gem 'showdown-rails'
 
 gem 'sqlite3'
 
