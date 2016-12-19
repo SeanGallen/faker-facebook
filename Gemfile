@@ -13,6 +13,7 @@ gem 'showdown-rails'
 
 gem 'sqlite3'
 
+gem 'rack'
 
 
 # To use ActiveModel has_secure_password
