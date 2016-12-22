@@ -1,19 +1,12 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-
 gem 'spring', :group => :development
-
 gem 'react-rails'
-
 gem 'showdown-rails'
-
-gem 'sqlite3'
-
+gem 'mysql2'
 gem 'rack'
 gem 'listen'
-
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
