@@ -4,10 +4,7 @@
   "description": "Facebook remix",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "test": "babel-node ./node_modules/.bin/isparta cover _mocha",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
   },
   "repository": {
     "type": "git",
@@ -39,23 +36,20 @@
     "chai": "^3.5.0",
     "eslint": "^3.12.0",
     "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-angular": "^1.5.0",
     "eslint-plugin-import": "^2.0.1",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.4.1",
     "isparta": "^4.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "node-sass": "^4.0.0",
-    "nodemon": "^1.11.0",
-    "react-scripts": "0.8.4"
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "angular": "^1.6.0",
+    "bootstrap": "^3.3.7",
     "jquery": "^3.1.1",
     "lodash": "^4.17.2",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "react-router": "^3.0.0",
-    "redux": "^3.6.0",
     "sass": "^0.5.0"
   }
 }
