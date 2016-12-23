@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'ruby' 
+gem 'ruby'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'spring', :group => :development
 gem 'react-rails'
 gem 'showdown-rails'
-gem 'mysql2'
+#gem 'mysql2'
+gem 'sqlite3'
 gem 'rack'
 gem 'listen'
 
