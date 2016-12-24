@@ -1,5 +1,5 @@
 # pseudo-facebook
-A learning, pet project to learn React.js and PHP.
+A learning, pet project to learn Angular.js and PHP.
 
 [![Build Status](https://travis-ci.org/tuuk79/pseudo-facebook.svg?branch=master)](https://travis-ci.org/tuuk79/pseudo-facebook)
 ### Installation
