@@ -5,3 +5,4 @@
 *.css.map
 npm-debug*
 /server/config/database.yml
+*.log

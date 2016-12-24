@@ -455,3 +455,10 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-12-23 19:53:34 -0600
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb
+  Rendered home/index.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
