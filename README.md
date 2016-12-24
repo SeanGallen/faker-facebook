@@ -10,10 +10,14 @@ Install Node and NPM. Then:
 Things you may want to cover:
 
 $ git clone https://github.com/tuuk79/pseudo-facebook.git
+
 $ cd pseudo-facebook
+
 $ git reset HEAD^
+
 $ npm install
-* Ruby version
+
+$ bundle install
 
 ### Unit Testing
 npm test
