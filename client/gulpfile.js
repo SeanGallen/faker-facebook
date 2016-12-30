@@ -21,7 +21,7 @@ gulp.task('copy-files-to-public', function() {
 
     console.log('copying necessary third party js files to public');
     gulp.src('./node_modules/angular/angular.js')
-        .pipe(gulp.dest('./public/scripts'));
+        .pipe(gulp.dest('./public/Scripts'));
 
     console.log('copying node modules to public');
     gulp.src('./node_modules/**')
