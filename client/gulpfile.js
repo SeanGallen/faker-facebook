@@ -15,9 +15,13 @@ gulp.task('copy-files-to-public', function() {
     gulp.src('./src/*.html')
         .pipe(gulp.dest('./public'));
 
-    console.log('copying node modules to public');
-    gulp.src('./node_modules/**')
-        .pipe(gulp.dest('./public/node_modules'));
+    console.log('copying necessary third party js files to public');
+    gulp.src('./node_modules/angular/angular.js')
+        .pipe(gulp.dest('./public/scripts'));
+
+    // console.log('copying node modules to public');
+    // gulp.src('./node_modules/**')
+    //     .pipe(gulp.dest('./public/node_modules'));
 });
 
 gulp.task('delete-public', function() {
