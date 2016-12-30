@@ -4,6 +4,7 @@
   "description": "Facebook remix",
   "main": "index.js",
   "scripts": {
+    "start": "node node_modules/http-server/bin/http-server",
     "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
   },
   "repository": {
