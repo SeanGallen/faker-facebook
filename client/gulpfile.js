@@ -7,9 +7,9 @@ gulp.task('default', function() {
 });
 
 gulp.task('copy-files-to-public', function() {
-    console.log('copying javascript files to public/scripts folder');
+    console.log('copying javascript files to public/Scripts folder');
     gulp.src('./src/*.js')
-        .pipe(gulp.dest('./public/scripts'));
+        .pipe(gulp.dest('./public/Scripts'));
 
     console.log('copying src files to public');
     gulp.src('./src/*.html')
