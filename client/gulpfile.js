@@ -8,5 +8,6 @@ console.log('copying src files to public');
 gulp.src('./src/*')
     .pipe(gulp.dest('./public'));
 
-gulp.src('./node_modules/*')
+console.log('copying node modules to public');
+gulp.src('./node_modules/**')
     .pipe(gulp.dest('./public/node_modules'));

@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/tuuk79/pseudo-facebook#readme",
   "eslintConfig": {
-    "extends": "airbnb",
     "plugins": [
       "import"
     ]
