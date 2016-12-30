@@ -10,6 +10,7 @@ gulp.task('copy-files-to-public', function() {
     console.log('copying app.js files to public folder');
     gulp.src('./src/app.js')
         .pipe(gulp.dest('./public'));
+        
 
     // console.log('copying javascript files to public/scripts folder');
     // gulp.src('./src/*.js')
