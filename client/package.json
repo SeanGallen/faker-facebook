@@ -34,16 +34,20 @@
     "babel-preset-react": "^6.16.0",
     "babel-register": "^6.18.0",
     "chai": "^3.5.0",
+    "del": "^2.2.2",
     "eslint": "^3.12.0",
     "eslint-plugin-angular": "^1.5.0",
     "eslint-plugin-import": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
     "gulp-cli": "^1.2.2",
     "http-server": "^0.9.0",
     "isparta": "^4.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "node-sass": "^4.0.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "vinyl-paths": "^2.1.0"
   },
   "dependencies": {
     "angular": "^1.6.1",
