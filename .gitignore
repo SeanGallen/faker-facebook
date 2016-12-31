@@ -4,7 +4,8 @@
 .sass-cache/
 *.css.map
 npm-debug*
-/server/config/database.yml
-/log
-/log/*
+config/database.yml
+log/development.log
+log/*
 !/log/.keep
+tmp/
