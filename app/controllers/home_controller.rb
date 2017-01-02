@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   def index
-      @todos = { :status => "yay json!" }
+      # @todos = { :status => "yay json!" }
 
-      render json: @todos
+      # render json: @todos
   end
 end

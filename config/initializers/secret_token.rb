@@ -16,4 +16,4 @@
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-PseudoFacebook::Application.config.secret_token = '3a3892ca87b236cd514179c3d6968c4228b3c63d7ee6b8babbefdb59f0c4381470fd57d90a9fc28fcc322444a8cdf13c7832aa2c14d512f96691868c9203e546'
+FakerFacebook::Application.config.secret_token = '3a3892ca87b236cd514179c3d6968c4228b3c63d7ee6b8babbefdb59f0c4381470fd57d90a9fc28fcc322444a8cdf13c7832aa2c14d512f96691868c9203e546'
