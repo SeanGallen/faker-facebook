@@ -1,0 +1,25 @@
+{
+  "name": "faker-facebook",
+  "homepage": "https://github.com/tuuk79/faker-facebook",
+  "authors": [
+    "Steve and Sean"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "facebook"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "bootstrap": "^3.3.7"
+  }
+}
