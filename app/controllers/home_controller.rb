@@ -1,7 +1,8 @@
 class HomeController < ApplicationController
   def index
-      # @todos = { :status => "yay json!" }
+  end
 
-      # render json: @todos
+  def angular
+    render 'layouts/application'
   end
 end
