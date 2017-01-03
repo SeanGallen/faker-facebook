@@ -6,6 +6,11 @@
     <%= javascript_include_tag 'application' %>
   </head>
   <body ng-app="fakerApp" ng-controller="MainCont">
+
+    <div style="float:right">
+      <%= render 'layouts/login' %>
+    </div>
+    
     <h1>Hi</h1>
     <div>
       {{facebook}}
