@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  resources :recipes
   root 'home#angular'
   get 'home/index'
 
