@@ -7,17 +7,6 @@
     <%= csrf_meta_tags %>
   </head>
   <body ng-app="fakerApp" ng-controller="MainCont">
-      <header>
-        <section class="name">faker facebook</section>
-        <div class="login">
-          <%= render 'layouts/login' %>
-        </div>
-      </header>
-      <section class="newUsers">
-      <div>
-        <%= render 'layouts/new_users' %>
-        <%# {{facebook}} %>
-      </div>
-      </section>
+    <%= yield %>
   </body>
 </html>

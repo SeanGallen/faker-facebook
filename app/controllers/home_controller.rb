@@ -3,7 +3,7 @@ class HomeController < ApplicationController
 
   end
 
-  def angular
-    render 'layouts/application'
+  def login
+    # render 'layouts/application'
   end
 end
