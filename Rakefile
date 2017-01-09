@@ -4,7 +4,7 @@
 require_relative 'config/application'
 desc 'Bower Install'
 task :bower do
-      "bower install"
+     sh "bower install"
 end
 
 Rails.application.load_tasks
