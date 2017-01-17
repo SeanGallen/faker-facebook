@@ -4,6 +4,6 @@ class HomeController < ApplicationController
   end
 
   def login
-    # render 'layouts/application'
+
   end
 end

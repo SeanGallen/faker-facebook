@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'home#login'
   get 'home/index'
+  get 'login/index'
+  post 'login/index'
 
   resources :users
 

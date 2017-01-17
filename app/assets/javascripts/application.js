@@ -1,2 +1,5 @@
-//= require angular
-//= require_tree .
+//= require jquery
+//= require angular/angular
+//= require tether
+//= require app
+

@@ -1,10 +1,10 @@
-<form>
+<form ng-submit="login()">
   Username:
-  <input type="text" name="username" value="">
+  <input type="text" name="username" ng-model="username" >
   Password:
-  <input type="password" name="password" value="">
-  <br><br>
-  <input type="submit" value="Submit">
+  <input type="password" name="password" ng-model="password" >
+  <br>
+  <input type="submit" >
 </form>
 
 

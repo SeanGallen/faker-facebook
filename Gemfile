@@ -9,6 +9,8 @@ gem 'pg'
 gem 'rack'
 gem 'listen'
 gem 'rake'
+gem 'compass'
+gem 'sprockets-rails'
 
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -25,6 +27,10 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

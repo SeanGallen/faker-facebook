@@ -6,7 +6,8 @@
     <%= javascript_include_tag 'application' %>
     <%= csrf_meta_tags %>
   </head>
-  <body ng-app="fakerApp" ng-controller="MainCont">
-    <%= yield %>
+  <body ng-app="fakerApp">
+    <div class="container-fluid">
+      <%= yield %>
+    </div>
   </body>
-</html>
