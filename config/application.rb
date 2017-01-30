@@ -14,7 +14,8 @@ module FakerFacebook
     
     #  config.api_only = true
 
-
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'bower_components')
+    config.public_file_server.enabled = true
 
   end
 end

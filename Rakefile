@@ -7,4 +7,9 @@ task :bower do
      sh "bower install"
 end
 
+task :move_files do
+    FileUtils.cp('app/views/layouts/login.html', 'public')
+    FileUtils.cp('app/views/layouts/new_users.html', 'public')
+end
+
 Rails.application.load_tasks
