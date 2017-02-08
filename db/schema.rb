@@ -18,13 +18,7 @@ ActiveRecord::Schema.define(version: 20170131023923) do
   create_table "posts", force: :cascade do |t|
     t.string   "title"
     t.text     "body"
-    t.integer  "catorgory_id"
     t.integer  "author_id"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
-  end
-
-  create_table "recipes", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
